@@ -1,2 +1,9 @@
 [tools]
 awscli = { version = "latest", symlink_bins = "true" }
+node = "latest"
+terraform = "latest"
+
+
+[env]
+AWS_PROFILE = "aws-ecommerce-dev"
+AWS_REGION = "us-east-1"

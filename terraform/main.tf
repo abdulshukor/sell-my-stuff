@@ -5,9 +5,10 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "ab-tf-states"
-    # Key folder name
+    # Key folder name - And store with this name
     key    = "sell-my-stuff-frontend/terraform.tfstate"
     region = "us-east-1"
+    # use_lockfile = true
 
   }
 }
