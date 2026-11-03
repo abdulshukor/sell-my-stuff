@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "sell-my-stuff-frontend-tf-abdul "
+    bucket = "sell-my-stuff-frontend-tf-abdul"
     # Key folder name - And store with this name
     key          = "sell-my-stuff-frontend/terraform.tfstate"
     region       = "us-east-1"
