@@ -7,3 +7,7 @@ terraform = "latest"
 [env]
 AWS_PROFILE = "aws-sell-my-stuff"
 AWS_REGION = "us-east-1"
+
+
+[hooks]
+enter = "bash ./scripts/setup_project"
