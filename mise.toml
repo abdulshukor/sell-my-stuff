@@ -1,6 +1,9 @@
 [tools]
 awscli = { version = "latest", symlink_bins = "true" }
 node = "latest"
+pipx = "latest"
+pre-commit = "latest"
+python = "latest"
 terraform = "latest"
 
 
